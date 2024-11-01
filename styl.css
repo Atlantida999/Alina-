@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right, #6a11cb, #2575fc);
+    color:fuchsia;
+    margin: 0;
+    padding: 20px;
+}
+.resume {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10p rgba(red, green, blue, alpha);
+    max-width: 600px;
+    margin: auto;
+}
+head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    color:#333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20;
+}
+p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 1%;
+    object-fit: cover;
+    border: 2px solid #000;
+}
